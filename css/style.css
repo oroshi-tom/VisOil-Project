@@ -65,6 +65,7 @@ main {
     background-repeat: no-repeat;
     height: 50vh;
     flex: 0 1 60vw;
+    margin 0;
 }
 
 .btn {
@@ -118,6 +119,7 @@ footer h3 {
 
 /* DESKTOP */
 /* set for any screens larger than 500px */
+
 @media(min-width:500px){
     #landing {
         display: flex;
@@ -133,7 +135,10 @@ footer h3 {
     }
 }
 
+
 /* set for screens larger than 700px */
+
+
 @media(min-width:700px){
     .btn {
         padding: 1rem 3rem;
