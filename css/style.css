@@ -4,7 +4,6 @@
     margin: 0;
 }
 
-
 body {
     font-family: 'Roboto Condensed', sans-serif;    
     background: #eee;
@@ -100,3 +99,43 @@ main {
     padding-right: 1rem;
 }
 
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+/* DESKTOP */
+/* set for any screens larger than 500px */
+@media(min-width:500px){
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text {
+        height: 100vh;
+    }
+
+    #landing-image{
+        height: 100vh;
+    }
+}
+
+/* set for screens larger than 700px */
+@media(min-width:700px){
+    .btn {
+        padding: 1rem 3rem;
+    }
+}
