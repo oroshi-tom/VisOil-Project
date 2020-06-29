@@ -199,6 +199,20 @@ footer h3 {
     margin-bottom: 0;
 }
 
+a:link{
+	color:#5d5a5a;
+	text-decoration:none;
+}
+	
+a:visited{
+	color:#606060FF;
+	font-weight:bold;
+}
+	
+a:hover{
+	color: dodgerblue;
+}
+
 /* DESKTOP */
 /* set for any screens larger than 500px */
 
