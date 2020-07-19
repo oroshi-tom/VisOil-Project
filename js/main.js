@@ -55,4 +55,8 @@ $('#top-btn').on('click', function(){
             scrollTop: 0
         }
     )
-})
+});
+
+window.onload = () => {
+    $('body').fadeIn(2000);
+};
