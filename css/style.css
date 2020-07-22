@@ -288,7 +288,8 @@ a:visited{
 }
 	
 a .span {
-	text-decoration: none;
+    text-decoration: none;
+    font-size: large;
 } 
 
 /*
@@ -304,6 +305,7 @@ a .span {
     cursor: pointer;
     display: flex;
     justify-content: center;
+    font-size: x-large;
 }
 
 
