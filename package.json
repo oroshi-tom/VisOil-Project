@@ -1,0 +1,25 @@
+{
+  "name": "proj354.oroshi",
+  "version": "1.0.0",
+  "description": "A little website for a school project",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oroshi-tom/proj354.oroshi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oroshi-tom/proj354.oroshi/issues"
+  },
+  "homepage": "https://github.com/oroshi-tom/proj354.oroshi#readme",
+  "dependencies": {
+    "wow.js": "^1.2.2"
+  }
+}
