@@ -9,6 +9,17 @@ $('#view-about').on('click',function(){
         900
     );
 });
+// Scroll to 'features'
+$('#view-features').on('click',function(){
+    const features = $('#features').position().top;
+
+    $('html, body').animate(
+        {
+            scrollTop: features
+        },
+        900
+    );
+});
 
 // Scroll to 'team'
 $('#view-team').on('click',function(){
@@ -58,5 +69,5 @@ $('#top-btn').on('click', function(){
 });
 
 window.onload = () => {
-    $('body').fadeIn(2000);
+    $('body').fadeIn(500);
 };
