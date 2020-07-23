@@ -58,7 +58,7 @@ img {
 }
 
 main {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
     box-shadow: 30px 0px 40px rgba(0,0,0,0.4),
     -30px 0px 40px rgba(0,0,0,0.1);
@@ -88,8 +88,7 @@ a::after {
 }
 
 #landing-image {
-    background-image: url("https://source.unsplash.com/lk9J3-RovGU");
-    
+    background-image: url("https://source.unsplash.com/lk9J3-RovGU");    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -98,10 +97,18 @@ a::after {
     margin: 0;
 }
 
+#graph-img-container {
+    width: 100%;
+    align-content: center;
+}
+
 #graph-img {
     padding: 20px;
-    height: 60vh;
+    height: 80vh;
+    max-width: 600px;
+    margin: auto;    
 }
+
 .custom-btn {
     padding: 0.5rem 2rem;
     border: 1px #ccc solid;
