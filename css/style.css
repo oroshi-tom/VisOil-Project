@@ -104,7 +104,7 @@ a::after {
 
 #graph-img {
     padding: 20px;
-    height: 80vh;
+    height: 60vh;
     max-width: 800px;
     margin: auto;    
 }
@@ -126,7 +126,14 @@ a::after {
     background: #f4f4f4;    
 }
 
-#header {
+.header {
+    padding: 0.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;    
+}
+
+.footer {
     padding: 0.5rem;
     text-align: center;
     background: #333;
@@ -153,6 +160,10 @@ a::after {
     padding: 10px;
 }
 
+#contact h4,h5 {
+    padding: 10px;
+    text-align: center;
+}
 
 /*
 ========================

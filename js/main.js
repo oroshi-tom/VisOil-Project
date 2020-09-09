@@ -34,12 +34,12 @@ $('#view-team').on('click',function(){
 });
 
 // Scroll to 'docs'
-$('#view-docs').on('click',function(){
-    const docs = $('#docs').position().top;
+$('#view-contact').on('click',function(){
+    const contact = $('#contact').position().top;
 
     $('html, body').animate(
         {
-            scrollTop: docs
+            scrollTop: contact
         },
         900
     );
