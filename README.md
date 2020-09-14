@@ -1,2 +1,2 @@
 # VisOil Project
-Project documentation for the VisOil application
+Realtime drilling data web application - Project website
