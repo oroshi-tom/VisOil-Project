@@ -31,7 +31,7 @@ body {
     border-radius: 5px;
 }
 
-#top-btn:active{
+#top-btn:hover{
     color:#000;
 }
 
@@ -64,9 +64,6 @@ main {
     -30px 0px 40px rgba(0,0,0,0.1);
 }
 
-a::after {
-    color: #5d5a5a;
-}
 /* LANDING AREA */
 #landing {
     background: #fff;
@@ -126,6 +123,34 @@ a::after {
     background: #f4f4f4;    
 }
 
+#landing-text-inner a:link {
+    color: #333;
+}
+
+#landing-text-inner a:visited {
+    color: #333;
+}
+
+#landing-text-inner a:hover {
+    color: #00CDCD;
+    text-decoration:none !important;
+}
+
+#contact a:link{
+    color: #00CDCD;
+	text-decoration:none !important;
+}
+
+#contact a:visited{
+	color: #007BFF;
+}
+
+#contact a:hover {
+    color: #53599A;
+}
+
+
+
 .header {
     padding: 0.5rem;
     text-align: center;
@@ -165,6 +190,62 @@ a::after {
     text-align: center;
 }
 
+#about-content h2, h4 {
+    text-align: center;
+}
+
+
+#feature-header {
+    text-align: center;
+    padding: 1rem;
+}
+
+.preview-container {
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+.preview {
+    border: 1px solid;
+    border-radius: .2rem;
+    border-color: #e9e9e9;
+    background: #f9f9f9;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.preview .icon {
+    padding: 5px;
+    width: 72px;
+    height: 72px;
+}
+
+.icon:hover {
+    color: #00CDCD;
+}
+
+.preview-body h4, p {
+    padding: 10px;
+}
+
+.preview-text a:link{
+	color:#00CDCD;
+	text-decoration:none !important;
+}
+
+.preview-text a:visited{
+	color: #00CDCD;
+	font-weight:bold;
+}
+
+.preview-text a:hover {
+    color: #53599A;
+}
+
+
 /*
 ========================
     FEATURE SECTION
@@ -180,8 +261,6 @@ a::after {
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 
@@ -282,15 +361,6 @@ footer h3 {
     font-size: 3rem;
     margin-bottom: 0;
 }
- a:link{
-	color:#5d5a5a;
-	text-decoration:none !important;
-} 
-	
-a:visited{
-	color: #5d5a5a !important;
-	font-weight:bold;
-}
 	
 a .span {
     text-decoration: none;
@@ -299,7 +369,7 @@ a .span {
 
 /*
 ========================
-    IMPORTDED BUTTONS
+    IMPORTDED BUTTONS -- old
 ======================== 
 */
 
